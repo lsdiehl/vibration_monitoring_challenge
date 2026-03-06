@@ -156,7 +156,7 @@ The hyperparameters (regularization strength `C` and penalty type `l1`/`l2`) are
 
 An unbiased generalization estimate is obtained via nested cross-validation with 5 outer stratified folds and 3 inner stratified folds. The outer loop yields performance estimates on held-out data never seen during hyperparameter optimization or threshold tuning. The inner loop runs `RandomizedSearchCV` independently per outer fold, and threshold tuning is performed on out-of-fold predictions of the outer training set via `cross_val_predict`, thereby preventing leakage from the outer validation fold.
 
-The per-fold and average metrics are reported below. All folds achieve an AUROC above 0.89, indicating strong and consistent discriminative ability. Recall is particularly high across folds, meaning the model rarely misses a loose asset. Fold 4 shows the lowest recall (0.88) and is the only fold where the model produces false negatives, suggesting a small subset of looseness cases that are harder to distinguish from healthy signals. A confusion matrix is obtained by summing the per-fold confusion matrices across all 5 outer folds, as shown below.
+The per-fold and average metrics are reported below. All folds achieve an AUROC above 0.89, indicating strong and consistent discriminative ability. A confusion matrix is obtained by summing the per-fold confusion matrices across all 5 outer folds, as shown below.
 
 | Fold | AUROC | F1 | Precision | Recall |
 |------|-------|----|-----------|--------|
