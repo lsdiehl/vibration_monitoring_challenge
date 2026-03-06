@@ -1,0 +1,22 @@
+{
+  "source_file": "ccd17931-56bc-5470-8a47-89356b267edd.csv",
+  "quantity": "acceleration",
+  "unit": "g",
+  "n_samples": 32768,
+  "duration_s": 2.068363,
+  "sample_rate_hz": 15842.0,
+  "dt_s": 6.3123e-05,
+  "freq_resolution_hz": 0.483459,
+  "nyquist_hz": 7921.0,
+  "carpet_power_ratio": 0.97433667,
+  "n_carpet_regions": 1,
+  "carpet_regions": [
+    {
+      "id": 1,
+      "start_hz": 2341.0146,
+      "end_hz": 4359.2223,
+      "bandwidth_hz": 2018.2077,
+      "power": 1.3052481970021363
+    }
+  ]
+}

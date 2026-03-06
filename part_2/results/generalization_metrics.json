@@ -1,0 +1,112 @@
+{
+  "note": "Unbiased generalization estimates. Describes pipeline performance, not the final model.",
+  "n_outer": 5,
+  "n_inner": 3,
+  "n_iter": 100,
+  "f_beta": 1,
+  "features": [
+    "horizontal_harmonic_flatness",
+    "horizontal_harmonic_irregularity",
+    "horizontal_harmonic_coeff_variation",
+    "vertical_harmonic_flatness",
+    "vertical_harmonic_irregularity",
+    "vertical_harmonic_coeff_variation",
+    "axial_harmonic_flatness",
+    "axial_harmonic_irregularity",
+    "axial_harmonic_coeff_variation"
+  ],
+  "fold_results": [
+    {
+      "fold": 1,
+      "n_train": 200,
+      "n_val": 50,
+      "auroc": 0.9786,
+      "f1": 0.9697,
+      "precision": 0.9697,
+      "recall": 0.9697,
+      "threshold": 0.31,
+      "TN": 16,
+      "FP": 1,
+      "FN": 1,
+      "TP": 32,
+      "best_C": 1.1600689839007141,
+      "best_penalty": "l1"
+    },
+    {
+      "fold": 2,
+      "n_train": 200,
+      "n_val": 50,
+      "auroc": 0.9982,
+      "f1": 0.9714,
+      "precision": 0.9444,
+      "recall": 1.0,
+      "threshold": 0.37,
+      "TN": 14,
+      "FP": 2,
+      "FN": 0,
+      "TP": 34,
+      "best_C": 1.408146893930582,
+      "best_penalty": "l1"
+    },
+    {
+      "fold": 3,
+      "n_train": 200,
+      "n_val": 50,
+      "auroc": 1.0,
+      "f1": 0.9855,
+      "precision": 0.9714,
+      "recall": 1.0,
+      "threshold": 0.4,
+      "TN": 15,
+      "FP": 1,
+      "FN": 0,
+      "TP": 34,
+      "best_C": 0.6317967091932509,
+      "best_penalty": "l1"
+    },
+    {
+      "fold": 4,
+      "n_train": 200,
+      "n_val": 50,
+      "auroc": 0.9761,
+      "f1": 0.9231,
+      "precision": 0.9677,
+      "recall": 0.8824,
+      "threshold": 0.71,
+      "TN": 15,
+      "FP": 1,
+      "FN": 4,
+      "TP": 30,
+      "best_C": 1.1600689839007141,
+      "best_penalty": "l1"
+    },
+    {
+      "fold": 5,
+      "n_train": 200,
+      "n_val": 50,
+      "auroc": 0.8915,
+      "f1": 0.9315,
+      "precision": 0.8718,
+      "recall": 1.0,
+      "threshold": 0.25,
+      "TN": 11,
+      "FP": 5,
+      "FN": 0,
+      "TP": 34,
+      "best_C": 3.907967156822881,
+      "best_penalty": "l1"
+    }
+  ],
+  "cv_mean": {
+    "auroc": 0.9689,
+    "f1": 0.9562,
+    "precision": 0.945,
+    "recall": 0.9704
+  },
+  "cv_std": {
+    "auroc": 0.0399,
+    "f1": 0.0244,
+    "precision": 0.0379,
+    "recall": 0.0455
+  }
+}

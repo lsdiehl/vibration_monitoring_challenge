@@ -1,0 +1,30 @@
+{
+  "note": "No performance metrics here. See generalization_metrics.json for honest estimates.",
+  "n_samples": 250,
+  "features": [
+    "horizontal_harmonic_flatness",
+    "horizontal_harmonic_irregularity",
+    "horizontal_harmonic_coeff_variation",
+    "vertical_harmonic_flatness",
+    "vertical_harmonic_irregularity",
+    "vertical_harmonic_coeff_variation",
+    "axial_harmonic_flatness",
+    "axial_harmonic_irregularity",
+    "axial_harmonic_coeff_variation"
+  ],
+  "best_C": 1.160069,
+  "best_penalty": "l1",
+  "threshold": 0.625,
+  "coefs": {
+    "horizontal_harmonic_flatness": 4.144107,
+    "horizontal_harmonic_irregularity": 0.203427,
+    "horizontal_harmonic_coeff_variation": 0.84862,
+    "vertical_harmonic_flatness": 0.0,
+    "vertical_harmonic_irregularity": 3.390987,
+    "vertical_harmonic_coeff_variation": -1.802449,
+    "axial_harmonic_flatness": -1.013232,
+    "axial_harmonic_irregularity": 0.977441,
+    "axial_harmonic_coeff_variation": -1.839591
+  },
+  "intercept": 1.726618
+}

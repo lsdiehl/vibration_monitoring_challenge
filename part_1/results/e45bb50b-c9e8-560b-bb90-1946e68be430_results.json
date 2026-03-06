@@ -1,0 +1,14 @@
+{
+  "source_file": "e45bb50b-c9e8-560b-bb90-1946e68be430.csv",
+  "quantity": "acceleration",
+  "unit": "g",
+  "n_samples": 32768,
+  "duration_s": 2.032566,
+  "sample_rate_hz": 16121.0,
+  "dt_s": 6.2031e-05,
+  "freq_resolution_hz": 0.491974,
+  "nyquist_hz": 8060.5,
+  "carpet_power_ratio": 0.0,
+  "n_carpet_regions": 0,
+  "carpet_regions": []
+}

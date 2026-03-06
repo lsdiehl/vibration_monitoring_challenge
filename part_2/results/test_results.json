@@ -1,0 +1,595 @@
+{
+  "threshold": 0.625,
+  "n_loose": 2,
+  "n_healthy": 5,
+  "results": [
+    {
+      "sample_id": "33542920-30ea-5844-861d-2c82d79087b8",
+      "asset_type": "electric-motor",
+      "rpm": 1170.0,
+      "score": 0.0,
+      "prediction": "healthy",
+      "is_loose": false,
+      "features": {
+        "horizontal_harmonic_flatness": 0.1007111,
+        "horizontal_harmonic_irregularity": 0.85374377,
+        "horizontal_harmonic_coeff_variation": 0.6821091,
+        "vertical_harmonic_flatness": 0.00581006,
+        "vertical_harmonic_irregularity": 0.72995527,
+        "vertical_harmonic_coeff_variation": 1.79366707,
+        "axial_harmonic_flatness": 0.0175634,
+        "axial_harmonic_irregularity": 0.85129743,
+        "axial_harmonic_coeff_variation": 1.8365214
+      },
+      "contributions": [
+        {
+          "feature": "axial_harmonic_coeff_variation",
+          "contribution": -7.638245,
+          "scaled_value": 4.152142,
+          "coef": -1.839591,
+          "raw_value": 1.8365214
+        },
+        {
+          "feature": "horizontal_harmonic_flatness",
+          "contribution": -7.131803,
+          "scaled_value": -1.72095,
+          "coef": 4.144107,
+          "raw_value": 0.1007111
+        },
+        {
+          "feature": "vertical_harmonic_coeff_variation",
+          "contribution": -6.099099,
+          "scaled_value": 3.383785,
+          "coef": -1.802449,
+          "raw_value": 1.79366707
+        },
+        {
+          "feature": "axial_harmonic_flatness",
+          "contribution": 3.754696,
+          "scaled_value": -3.705664,
+          "coef": -1.013232,
+          "raw_value": 0.0175634
+        },
+        {
+          "feature": "horizontal_harmonic_coeff_variation",
+          "contribution": -0.833672,
+          "scaled_value": -0.982386,
+          "coef": 0.84862,
+          "raw_value": 0.6821091
+        },
+        {
+          "feature": "axial_harmonic_irregularity",
+          "contribution": 0.802174,
+          "scaled_value": 0.820689,
+          "coef": 0.977441,
+          "raw_value": 0.85129743
+        },
+        {
+          "feature": "vertical_harmonic_irregularity",
+          "contribution": 0.468433,
+          "scaled_value": 0.138141,
+          "coef": 3.390987,
+          "raw_value": 0.72995527
+        },
+        {
+          "feature": "horizontal_harmonic_irregularity",
+          "contribution": 0.170068,
+          "scaled_value": 0.836014,
+          "coef": 0.203427,
+          "raw_value": 0.85374377
+        },
+        {
+          "feature": "vertical_harmonic_flatness",
+          "contribution": -0.0,
+          "scaled_value": -2.88609,
+          "coef": 0.0,
+          "raw_value": 0.00581006
+        }
+      ]
+    },
+    {
+      "sample_id": "e057600e-3b4e-58ba-b8b8-357169ae6bf6",
+      "asset_type": "spindle",
+      "rpm": 1800.0,
+      "score": 0.997541,
+      "prediction": "structural_looseness",
+      "is_loose": true,
+      "features": {
+        "horizontal_harmonic_flatness": 0.68048255,
+        "horizontal_harmonic_irregularity": 1.19073247,
+        "horizontal_harmonic_coeff_variation": 0.8306175,
+        "vertical_harmonic_flatness": 0.54099022,
+        "vertical_harmonic_irregularity": 0.78671537,
+        "vertical_harmonic_coeff_variation": 0.83727861,
+        "axial_harmonic_flatness": 0.55507286,
+        "axial_harmonic_irregularity": 0.72957667,
+        "axial_harmonic_coeff_variation": 0.67163455
+      },
+      "contributions": [
+        {
+          "feature": "horizontal_harmonic_flatness",
+          "contribution": 2.160084,
+          "scaled_value": 0.521242,
+          "coef": 4.144107,
+          "raw_value": 0.68048255
+        },
+        {
+          "feature": "vertical_harmonic_irregularity",
+          "contribution": 0.932079,
+          "scaled_value": 0.27487,
+          "coef": 3.390987,
+          "raw_value": 0.78671537
+        },
+        {
+          "feature": "axial_harmonic_flatness",
+          "contribution": 0.739984,
+          "scaled_value": -0.730321,
+          "coef": -1.013232,
+          "raw_value": 0.55507286
+        },
+        {
+          "feature": "axial_harmonic_coeff_variation",
+          "contribution": 0.60189,
+          "scaled_value": -0.327187,
+          "coef": -1.839591,
+          "raw_value": 0.67163455
+        },
+        {
+          "feature": "horizontal_harmonic_coeff_variation",
+          "contribution": -0.571621,
+          "scaled_value": -0.673589,
+          "coef": 0.84862,
+          "raw_value": 0.8306175
+        },
+        {
+          "feature": "vertical_harmonic_coeff_variation",
+          "contribution": -0.515466,
+          "scaled_value": 0.285981,
+          "coef": -1.802449,
+          "raw_value": 0.83727861
+        },
+        {
+          "feature": "axial_harmonic_irregularity",
+          "contribution": 0.473678,
+          "scaled_value": 0.484611,
+          "coef": 0.977441,
+          "raw_value": 0.72957667
+        },
+        {
+          "feature": "horizontal_harmonic_irregularity",
+          "contribution": 0.458342,
+          "scaled_value": 2.2531,
+          "coef": 0.203427,
+          "raw_value": 1.19073247
+        },
+        {
+          "feature": "vertical_harmonic_flatness",
+          "contribution": -0.0,
+          "scaled_value": -0.653658,
+          "coef": 0.0,
+          "raw_value": 0.54099022
+        }
+      ]
+    },
+    {
+      "sample_id": "01e98ad9-23c9-5986-ace0-4519bad71198",
+      "asset_type": "bearing",
+      "rpm": 1785.0,
+      "score": 0.150442,
+      "prediction": "healthy",
+      "is_loose": false,
+      "features": {
+        "horizontal_harmonic_flatness": 0.05182313,
+        "horizontal_harmonic_irregularity": 1.49865881,
+        "horizontal_harmonic_coeff_variation": 1.25563702,
+        "vertical_harmonic_flatness": 0.7947146,
+        "vertical_harmonic_irregularity": 0.63834971,
+        "vertical_harmonic_coeff_variation": 0.60716073,
+        "axial_harmonic_flatness": 0.04522977,
+        "axial_harmonic_irregularity": 0.68593493,
+        "axial_harmonic_coeff_variation": 0.89047492
+      },
+      "contributions": [
+        {
+          "feature": "horizontal_harmonic_flatness",
+          "contribution": -7.915321,
+          "scaled_value": -1.910018,
+          "coef": 4.144107,
+          "raw_value": 0.05182313
+        },
+        {
+          "feature": "axial_harmonic_flatness",
+          "contribution": 3.599525,
+          "scaled_value": -3.552519,
+          "coef": -1.013232,
+          "raw_value": 0.04522977
+        },
+        {
+          "feature": "axial_harmonic_coeff_variation",
+          "contribution": -0.946135,
+          "scaled_value": 0.514318,
+          "coef": -1.839591,
+          "raw_value": 0.89047492
+        },
+        {
+          "feature": "vertical_harmonic_coeff_variation",
+          "contribution": 0.828019,
+          "scaled_value": -0.459385,
+          "coef": -1.802449,
+          "raw_value": 0.60716073
+        },
+        {
+          "feature": "horizontal_harmonic_irregularity",
+          "contribution": 0.721755,
+          "scaled_value": 3.547976,
+          "coef": 0.203427,
+          "raw_value": 1.49865881
+        },
+        {
+          "feature": "axial_harmonic_irregularity",
+          "contribution": 0.355899,
+          "scaled_value": 0.364113,
+          "coef": 0.977441,
+          "raw_value": 0.68593493
+        },
+        {
+          "feature": "vertical_harmonic_irregularity",
+          "contribution": -0.279848,
+          "scaled_value": -0.082527,
+          "coef": 3.390987,
+          "raw_value": 0.63834971
+        },
+        {
+          "feature": "horizontal_harmonic_coeff_variation",
+          "contribution": 0.178352,
+          "scaled_value": 0.210167,
+          "coef": 0.84862,
+          "raw_value": 1.25563702
+        },
+        {
+          "feature": "vertical_harmonic_flatness",
+          "contribution": 0.0,
+          "scaled_value": 0.404719,
+          "coef": 0.0,
+          "raw_value": 0.7947146
+        }
+      ]
+    },
+    {
+      "sample_id": "2211750b-6672-5a94-bd40-cda811f69d01",
+      "asset_type": "fan",
+      "rpm": 2025.0,
+      "score": 2.1e-05,
+      "prediction": "healthy",
+      "is_loose": false,
+      "features": {
+        "horizontal_harmonic_flatness": 0.09206622,
+        "horizontal_harmonic_irregularity": 1.13930885,
+        "horizontal_harmonic_coeff_variation": 0.97570594,
+        "vertical_harmonic_flatness": 0.01316215,
+        "vertical_harmonic_irregularity": 0.58028474,
+        "vertical_harmonic_coeff_variation": 1.01129265,
+        "axial_harmonic_flatness": 0.00076407,
+        "axial_harmonic_irregularity": 1.99996884,
+        "axial_harmonic_coeff_variation": 2.27929084
+      },
+      "contributions": [
+        {
+          "feature": "axial_harmonic_coeff_variation",
+          "contribution": -10.770291,
+          "scaled_value": 5.85472,
+          "coef": -1.839591,
+          "raw_value": 2.27929084
+        },
+        {
+          "feature": "horizontal_harmonic_flatness",
+          "contribution": -7.270353,
+          "scaled_value": -1.754383,
+          "coef": 4.144107,
+          "raw_value": 0.09206622
+        },
+        {
+          "feature": "axial_harmonic_irregularity",
+          "contribution": 3.902175,
+          "scaled_value": 3.992236,
+          "coef": 0.977441,
+          "raw_value": 1.99996884
+        },
+        {
+          "feature": "axial_harmonic_flatness",
+          "contribution": 3.848918,
+          "scaled_value": -3.798656,
+          "coef": -1.013232,
+          "raw_value": 0.00076407
+        },
+        {
+          "feature": "vertical_harmonic_coeff_variation",
+          "contribution": -1.531404,
+          "scaled_value": 0.849624,
+          "coef": -1.802449,
+          "raw_value": 1.01129265
+        },
+        {
+          "feature": "vertical_harmonic_irregularity",
+          "contribution": -0.754152,
+          "scaled_value": -0.222399,
+          "coef": 3.390987,
+          "raw_value": 0.58028474
+        },
+        {
+          "feature": "horizontal_harmonic_irregularity",
+          "contribution": 0.414352,
+          "scaled_value": 2.036857,
+          "coef": 0.203427,
+          "raw_value": 1.13930885
+        },
+        {
+          "feature": "horizontal_harmonic_coeff_variation",
+          "contribution": -0.315603,
+          "scaled_value": -0.371902,
+          "coef": 0.84862,
+          "raw_value": 0.97570594
+        },
+        {
+          "feature": "vertical_harmonic_flatness",
+          "contribution": -0.0,
+          "scaled_value": -2.855422,
+          "coef": 0.0,
+          "raw_value": 0.01316215
+        }
+      ]
+    },
+    {
+      "sample_id": "680bbcbf-b1c8-544d-8f80-bf763cdcd128",
+      "asset_type": "compressor",
+      "rpm": 3573.0,
+      "score": 0.190437,
+      "prediction": "healthy",
+      "is_loose": false,
+      "features": {
+        "horizontal_harmonic_flatness": 0.13726958,
+        "horizontal_harmonic_irregularity": 1.96108909,
+        "horizontal_harmonic_coeff_variation": 1.70618372,
+        "vertical_harmonic_flatness": 5.09e-06,
+        "vertical_harmonic_irregularity": 1.99999969,
+        "vertical_harmonic_coeff_variation": 2.64574955,
+        "axial_harmonic_flatness": 0.01351111,
+        "axial_harmonic_irregularity": 1.90227157,
+        "axial_harmonic_coeff_variation": 1.59129748
+      },
+      "contributions": [
+        {
+          "feature": "vertical_harmonic_coeff_variation",
+          "contribution": -11.073768,
+          "scaled_value": 6.143735,
+          "coef": -1.802449,
+          "raw_value": 2.64574955
+        },
+        {
+          "feature": "vertical_harmonic_irregularity",
+          "contribution": 10.84281,
+          "scaled_value": 3.197538,
+          "coef": 3.390987,
+          "raw_value": 1.99999969
+        },
+        {
+          "feature": "horizontal_harmonic_flatness",
+          "contribution": -6.545887,
+          "scaled_value": -1.579565,
+          "coef": 4.144107,
+          "raw_value": 0.13726958
+        },
+        {
+          "feature": "axial_harmonic_coeff_variation",
+          "contribution": -5.903589,
+          "scaled_value": 3.209185,
+          "coef": -1.839591,
+          "raw_value": 1.59129748
+        },
+        {
+          "feature": "axial_harmonic_flatness",
+          "contribution": 3.777424,
+          "scaled_value": -3.728095,
+          "coef": -1.013232,
+          "raw_value": 0.01351111
+        },
+        {
+          "feature": "axial_harmonic_irregularity",
+          "contribution": 3.638512,
+          "scaled_value": 3.722489,
+          "coef": 0.977441,
+          "raw_value": 1.90227157
+        },
+        {
+          "feature": "horizontal_harmonic_irregularity",
+          "contribution": 1.117337,
+          "scaled_value": 5.492562,
+          "coef": 0.203427,
+          "raw_value": 1.96108909
+        },
+        {
+          "feature": "horizontal_harmonic_coeff_variation",
+          "contribution": 0.973368,
+          "scaled_value": 1.147001,
+          "coef": 0.84862,
+          "raw_value": 1.70618372
+        },
+        {
+          "feature": "vertical_harmonic_flatness",
+          "contribution": -0.0,
+          "scaled_value": -2.910305,
+          "coef": 0.0,
+          "raw_value": 5.09e-06
+        }
+      ]
+    },
+    {
+      "sample_id": "1dab1534-b8a8-5962-b01c-bff0782d54a9",
+      "asset_type": "compressor",
+      "rpm": 3545.0,
+      "score": 0.002282,
+      "prediction": "healthy",
+      "is_loose": false,
+      "features": {
+        "horizontal_harmonic_flatness": 0.00013775,
+        "horizontal_harmonic_irregularity": 1.68411498,
+        "horizontal_harmonic_coeff_variation": 1.77359091,
+        "vertical_harmonic_flatness": 0.96274588,
+        "vertical_harmonic_irregularity": 0.0607424,
+        "vertical_harmonic_coeff_variation": 0.28394852,
+        "axial_harmonic_flatness": 0.98996166,
+        "axial_harmonic_irregularity": 0.02287063,
+        "axial_harmonic_coeff_variation": 0.13759944
+      },
+      "contributions": [
+        {
+          "feature": "horizontal_harmonic_flatness",
+          "contribution": -8.743673,
+          "scaled_value": -2.109905,
+          "coef": 4.144107,
+          "raw_value": 0.00013775
+        },
+        {
+          "feature": "vertical_harmonic_irregularity",
+          "contribution": -4.998042,
+          "scaled_value": -1.473919,
+          "coef": 3.390987,
+          "raw_value": 0.0607424
+        },
+        {
+          "feature": "axial_harmonic_coeff_variation",
+          "contribution": 4.379529,
+          "scaled_value": -2.380708,
+          "coef": -1.839591,
+          "raw_value": 0.13759944
+        },
+        {
+          "feature": "vertical_harmonic_coeff_variation",
+          "contribution": 2.715012,
+          "scaled_value": -1.506291,
+          "coef": -1.802449,
+          "raw_value": 0.28394852
+        },
+        {
+          "feature": "axial_harmonic_flatness",
+          "contribution": -1.699162,
+          "scaled_value": 1.676973,
+          "coef": -1.013232,
+          "raw_value": 0.98996166
+        },
+        {
+          "feature": "axial_harmonic_irregularity",
+          "contribution": -1.433559,
+          "scaled_value": -1.466645,
+          "coef": 0.977441,
+          "raw_value": 0.02287063
+        },
+        {
+          "feature": "horizontal_harmonic_coeff_variation",
+          "contribution": 1.092312,
+          "scaled_value": 1.287163,
+          "coef": 0.84862,
+          "raw_value": 1.77359091
+        },
+        {
+          "feature": "horizontal_harmonic_irregularity",
+          "contribution": 0.880402,
+          "scaled_value": 4.327846,
+          "coef": 0.203427,
+          "raw_value": 1.68411498
+        },
+        {
+          "feature": "vertical_harmonic_flatness",
+          "contribution": 0.0,
+          "scaled_value": 1.105639,
+          "coef": 0.0,
+          "raw_value": 0.96274588
+        }
+      ]
+    },
+    {
+      "sample_id": "9f3b933a-1bc3-5093-9dee-800cc03c6b1d",
+      "asset_type": "bearing",
+      "rpm": 1590.0,
+      "score": 0.987732,
+      "prediction": "structural_looseness",
+      "is_loose": true,
+      "features": {
+        "horizontal_harmonic_flatness": 0.82139844,
+        "horizontal_harmonic_irregularity": 0.32518464,
+        "horizontal_harmonic_coeff_variation": 0.51928461,
+        "vertical_harmonic_flatness": 0.84964693,
+        "vertical_harmonic_irregularity": 0.58397515,
+        "vertical_harmonic_coeff_variation": 0.62904814,
+        "axial_harmonic_flatness": 0.69974352,
+        "axial_harmonic_irregularity": 0.22846286,
+        "axial_harmonic_coeff_variation": 0.66903925
+      },
+      "contributions": [
+        {
+          "feature": "horizontal_harmonic_flatness",
+          "contribution": 4.418516,
+          "scaled_value": 1.066217,
+          "coef": 4.144107,
+          "raw_value": 0.82139844
+        },
+        {
+          "feature": "horizontal_harmonic_coeff_variation",
+          "contribution": -1.120986,
+          "scaled_value": -1.320952,
+          "coef": 0.84862,
+          "raw_value": 0.51928461
+        },
+        {
+          "feature": "axial_harmonic_irregularity",
+          "contribution": -0.878713,
+          "scaled_value": -0.898993,
+          "coef": 0.977441,
+          "raw_value": 0.22846286
+        },
+        {
+          "feature": "vertical_harmonic_irregularity",
+          "contribution": -0.724007,
+          "scaled_value": -0.213509,
+          "coef": 3.390987,
+          "raw_value": 0.58397515
+        },
+        {
+          "feature": "vertical_harmonic_coeff_variation",
+          "contribution": 0.700235,
+          "scaled_value": -0.388491,
+          "coef": -1.802449,
+          "raw_value": 0.62904814
+        },
+        {
+          "feature": "axial_harmonic_coeff_variation",
+          "contribution": 0.620249,
+          "scaled_value": -0.337167,
+          "coef": -1.839591,
+          "raw_value": 0.66903925
+        },
+        {
+          "feature": "horizontal_harmonic_irregularity",
+          "contribution": -0.282083,
+          "scaled_value": -1.386655,
+          "coef": 0.203427,
+          "raw_value": 0.32518464
+        },
+        {
+          "feature": "axial_harmonic_flatness",
+          "contribution": -0.071425,
+          "scaled_value": 0.070493,
+          "coef": -1.013232,
+          "raw_value": 0.69974352
+        },
+        {
+          "feature": "vertical_harmonic_flatness",
+          "contribution": 0.0,
+          "scaled_value": 0.633862,
+          "coef": 0.0,
+          "raw_value": 0.84964693
+        }
+      ]
+    }
+  ]
+}

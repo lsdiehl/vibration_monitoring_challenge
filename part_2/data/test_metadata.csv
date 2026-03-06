@@ -1,0 +1,8 @@
+asset,sample_id,rpm,orientation
+electric-motor,33542920-30ea-5844-861d-2c82d79087b8,1170,"{'axisX': 'vertical', 'axisY': 'horizontal', 'axisZ': 'axial'}"
+spindle,e057600e-3b4e-58ba-b8b8-357169ae6bf6,1800,"{'axisX': 'horizontal', 'axisY': 'axial', 'axisZ': 'vertical'}"
+bearing,01e98ad9-23c9-5986-ace0-4519bad71198,1785,"{'axisX': 'horizontal', 'axisY': 'axial', 'axisZ': 'vertical'}"
+fan,2211750b-6672-5a94-bd40-cda811f69d01,2025,"{'axisX': 'horizontal', 'axisY': 'axial', 'axisZ': 'vertical'}"
+compressor,680bbcbf-b1c8-544d-8f80-bf763cdcd128,3573,"{'axisX': 'vertical', 'axisY': 'axial', 'axisZ': 'horizontal'}"
+compressor,1dab1534-b8a8-5962-b01c-bff0782d54a9,3545,"{'axisX': 'vertical', 'axisY': 'axial', 'axisZ': 'horizontal'}"
+bearing,9f3b933a-1bc3-5093-9dee-800cc03c6b1d,1590,"{'axisX': 'horizontal', 'axisY': 'axial', 'axisZ': 'vertical'}"

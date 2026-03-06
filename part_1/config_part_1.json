@@ -1,0 +1,15 @@
+{
+  "_comment_wave": "Default metadata applied to every CSV loaded in part 1.",
+  "wave_quantity": "acceleration",
+  "wave_unit": "g",
+
+  "_comment_model": "Parameters for the carpet detection model.",
+  "median_window_hz": 100.0,
+  "psd_threshold_db": -80.0,
+  "min_bandwidth_hz": 100.0,
+  "min_start_freq_hz": 1000.0,
+  "max_band_gap_hz": 150.0,
+  "ratio_delta_f": 1.1,
+  "overlap": 0.9,
+  "window_name": "hanning"
+}
