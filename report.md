@@ -91,7 +91,7 @@ For displaying the results, the one-sided amplitude spectrum is computed separat
 
 To quantify carpet severity, the carpet power ratio (CPR) is proposed as a metric. It is defined as the ratio of the PSD $S(f)$ integrated over all $N$ detected carpet bands to the total power above `min_start_freq_hz`:
 
-$$\text{CPR} = \frac{\displaystyle\sum_{k=1}^N \int_{f_{\text{lower},k}}^{f_{\text{upper},k}} S(f)\, \text{d}f}{\displaystyle\int_{f_{\min}}^{f_{\text{Nyquist}}} S(f)\, \text{d}f}$$
+$$\text{CPR} = \frac{\displaystyle\sum_{k=1}^N \int_{f_{\text{lower},k}}^{f_{\text{upper},k}} S(f)\ \text{d}f}{\displaystyle\int_{f_{\min}}^{f_{\text{Nyquist}}} S(f)\ \text{d}f}$$
 
 
 A higher CPR indicates a greater proportion of high-frequency energy concentrated in carpet bands. The table below ranks the samples in order of descending CPR.
