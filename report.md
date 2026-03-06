@@ -136,7 +136,7 @@ $$\text{harmonic\\ irregularity} = \dfrac{\sum_{k}(A_k - A_{k+1})^2}{\sum_{k} A_
 
 $$\text{harmonic\\ coeff\\ variation} = \dfrac{\text{std}(A)}{\text{mean}(A)}$$
 
-Amplitude at harmonics 3× to 10× the rotational frequency are extracted within a narrow band of ±10% of the rotational frequency centered at each harmonic. The feature distributions are shown in the violin plots below. Among the extracted features, `hor_harmonic_coeff_variation` and `hor_harmonic_flatness` are particularly discriminative between healthy and loose assets.
+Amplitude at harmonics 3× to 10× the rotational frequency are extracted as the maximum value within a narrow band of ±10% of the rotational frequency centered at each harmonic. The feature distributions are shown in the violin plots below. Among the extracted features, `hor_harmonic_coeff_variation` and `hor_harmonic_flatness` are particularly discriminative between healthy and loose assets.
 
 <img src="./part_2/figures/features/violin_features.png" width="900" alt="Violin plots of the feature distributions across the healthy and loose classes.">
 
