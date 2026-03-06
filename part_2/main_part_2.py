@@ -185,7 +185,7 @@ class Config(BaseModel):
     band_half_width : float        = Field(0.1,      description="Half-width around each harmonic [fraction of f_rot]")
     harmonics       : List[int]    = Field(default_factory=lambda: list(range(3, 11)),
                                           description="Harmonic orders used for feature extraction")
-    orientations    : List[str]    = Field(default_factory=lambda: ["horizontal", "vertical", "axial"],
+    orientations    : List[Literal["horizontal", "vertical", "axial"]] = Field(default_factory=lambda: ["horizontal", "vertical", "axial"],
                                           description="Vibration orientations")
     n_outer         : int          = Field(5,        description="Outer CV folds")
     n_inner         : int          = Field(3,        description="Inner CV folds")
@@ -193,6 +193,8 @@ class Config(BaseModel):
     f_beta          : int          = Field(1,        description="Beta for F-beta threshold tuning")
     random_state    : int          = Field(42,       description="Random seed")
     window_name     : Literal["hanning"] = Field("hanning", description="FFT window type")
+    
+    model_config = {"extra": "forbid"}
 
     @field_validator("n_outer", "n_inner", "n_iter")
     @classmethod

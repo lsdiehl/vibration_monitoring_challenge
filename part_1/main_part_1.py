@@ -244,6 +244,8 @@ class Config(BaseModel):
     ratio_delta_f     : float            = Field(1.1,      description="Welch segment multiplier — must be > 1")
     overlap           : float            = Field(0.9,      description="Welch overlap fraction [0, 1)")
     window_name       : Literal["hanning"] = Field("hanning", description="FFT window type")
+    
+    model_config = {"extra": "forbid"}
 
     @field_validator("psd_threshold_db")
     @classmethod
